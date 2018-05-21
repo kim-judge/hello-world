@@ -1,0 +1,19 @@
+input_fastq:
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC07.fastq
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC02.fastq
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC03.fastq
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC04.fastq
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC05.fastq
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC06.fastq
+  - class: File
+    path: /home/ubuntu/data/seq/porechop/BC08.fastq
+
+reference:
+  class: File
+  path: /home/ubuntu/refs/HE681097.fasta
